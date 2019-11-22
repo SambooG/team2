@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'gt_walsheim_trialbold';
+    src: url("./fonts/gt-walsheim-pro-trial-bold-webfont.woff2") format("woff2"), url("./fonts/gt-walsheim-pro-trial-bold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal; }
+  /* HTML */
+  * {
+    box-sizing: border-box;
+    box-shadow: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+    header, #meme-buttons {
+        margin-bottom: 1%;
+    }
+    .btn-primary:hover{
+        background-color: #eba23c;
+        border-color:white;
+    }
+    .btn:focus,.btn:active {
+        outline: none !important;
+        box-shadow: none;
+     }
+    
+    #add-meme {
+        background-color: #eba23c;
+        cursor: pointer;
+        border-color:white;
+    }
+    
+    .meme {
+        cursor: pointer;
+    }
+    
+    .meme {
+        cursor: pointer;
+    }
+    
+    p {
+        text-transform: uppercase;
+        padding-left: 1%;
+    }
+    
+    .meme {
+        margin-right: 1%;
+        margin-bottom: 1%;
+        border-color:white;
+        background: white;
+        color:purple;
+    }
+    .memeDiv {
+        margin-right: 1%;
+    }
+    
+    .rating{
+        
+        color: white;
+    }
+    
+    
+    
+    
+    @media screen and (max-width: 768px) {
+    
+    .meme {
+        width: 100%;
+    }
+    
+    #add-meme {
+        margin-left: 15px;
+    }
+    
+    }
