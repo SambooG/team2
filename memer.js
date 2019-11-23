@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 searchedMovie = "";
 movieInfo = {};
 
@@ -58,6 +58,6 @@ var searchOMDB = function(term) {
     $('.meme-container').prepend(year + " "  + " " , rated );
   });
 } 
-=======
-// help
->>>>>>> dd6d4a9e93bbde9dc02ed30405c95c9cfe33390d
+
+
+
