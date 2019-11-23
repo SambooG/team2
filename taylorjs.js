@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 searchedMovie = "";
 movieInfo = {};
 
@@ -20,10 +19,7 @@ var searchOMDB = function(term) {
   })
   .then(function(response) {
     console.log(response);
-    // sets actorsOrig to Actors list from rasponse 
- 
-    
-
+    // sets actorsOrig to Actors list from rasponse
     var actorsOrig = response.Actors;
     // takes out the space after the commas in original string (this is to make sure they are not kept 
     // in the array), and assigns to actorsOrig
@@ -49,14 +45,6 @@ var searchOMDB = function(term) {
     // sends rated to movieInfo object
     movieInfo['rated'] = rated;
     console.log('---movieInfo---')
-    console.log(movieInfo); 
-    
-   
-
-    memeDiv.append(memeImage);
-    memeDiv.append(ratingP);
+    console.log(movieInfo);
   });
-} 
-=======
-// help
->>>>>>> dd6d4a9e93bbde9dc02ed30405c95c9cfe33390d
+}
