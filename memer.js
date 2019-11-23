@@ -53,8 +53,9 @@ var searchOMDB = function(term) {
     
    
 
-    memeDiv.append(memeImage);
-    memeDiv.append(ratingP);
+    $('.meme-container').prepend("<img src=" + poster + "/>" );
+  
+    $('.meme-container').prepend(year + " "  + " " , rated );
   });
 } 
 =======
