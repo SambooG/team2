@@ -1,20 +1,17 @@
-let = searchTerm = $('userEntry').val();
-const queryUrl = "https://api.imgur.com/3/gallery/search?q="+ searchTerm
-// "Authorization: Client-ID {{32366db57d27d55}}" to go in html header?
+let searchTerm = "crazy rich asians"
+// $('userEntry').val();
+const queryUrl = "https://api.giphy.com/v1/gifs/search?q="+ searchTerm +"&api_key=X0o4KtmIAWKDT5cJNNvPLhowkrKhv1mB"
+const accessToken = "1X0o4KtmIAWKDT5cJNNvPLhowkrKhv1mB"
+// $('#GetMyGiphy').on('click',function(){
+$.ajax({
+  url: queryUrl,
+    method: "GET",
+    success: function(response){
+      console.log("RESPONSE:! ", response)
+        const giphResults = response.data;
+        const giphyImages = $("<div class = giphdiv>");
+        giphResults.append(giphyImages)
 
-$('#GetMyMeme').on('click',function(){
-    $.ajax({
-        url: queryUrl,
-        method: 'GET',
-    })
-    .then(function(response){
-        var results = response.data;
-            if (results === movieName){
-            // creating a div for our mem result
-            var memeDiv = $('<resultdiv>');
-            // creating image tag
-            var memeImg = $('<img>');
-        }
+    }
+})
 
-    });
-});  
