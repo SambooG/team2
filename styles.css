@@ -1,3 +1,9 @@
+  
+body{
+    background-color: rgb(45, 44, 44);
+   
+    
+}
 @font-face {
     font-family: 'gt_walsheim_trialbold';
     src: url("./fonts/gt-walsheim-pro-trial-bold-webfont.woff2") format("woff2"), url("./fonts/gt-walsheim-pro-trial-bold-webfont.woff") format("woff");
@@ -9,36 +15,60 @@
     box-shadow: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
+
     header, #meme-buttons {
         margin-bottom: 1%;
+        background-color:rgb(255, 95, 2);
+        color:white;
     }
-    .btn-primary:hover{
-        background-color: #eba23c;
+.giphy-container{
+    background-color: rgb(121, 115, 115);
+    border-radius: 20px;
+    border: rgb(180, 178, 178) solid 2px;
+}
+  
+.meme-container{
+    border-radius:20px;
+    background-color:rgb(121, 115, 115);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
+    border: rgb(180, 178, 178) solid 2px; 
+    text-align: left; 
+    text-emphasis: bold;
+}
+.meme-container img, .giphy-container img{padding-left:60px;
+    margin-top:20px;
+    color:white;
+    background-color:  rgb(255, 95, 2);
+    
+}
+
+    .btn:hover {
+        background-color: rgb(121, 115, 115) !important;
         border-color:white;
     }
+    
     .btn:focus,.btn:active {
         outline: none !important;
         box-shadow: none;
      }
     
     #add-meme {
-        background-color: #eba23c;
+        background-color:rgb(255, 95, 2);
         cursor: pointer;
         border-color:white;
+        background-color: rgb(245, 138, 77);
     }
     
     .meme {
         cursor: pointer;
     }
     
+    
     .meme {
         cursor: pointer;
     }
     
-    p {
-        text-transform: uppercase;
-        padding-left: 1%;
-    }
+  
     
     .meme {
         margin-right: 1%;
@@ -47,15 +77,11 @@
         background: white;
         color:purple;
     }
-    .memeDiv {
+    .meme-container img{
         margin-right: 1%;
     }
     
-    .rating{
-        
-        color: white;
-    }
-    
+ 
     
     
     
@@ -67,6 +93,3 @@
     
     #add-meme {
         margin-left: 15px;
-    }
-    
-    }
