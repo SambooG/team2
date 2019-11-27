@@ -29,10 +29,11 @@ body{
 }
 .meme-container img{padding-left:60px;
     margin-top:20px;
-   
+    color:white;
 
 
 }
+
     .btn-primary:hover{
         background-color: #eba23c;
         border-color:white;
