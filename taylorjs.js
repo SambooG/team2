@@ -3,9 +3,10 @@ movieInfo = {};
 
 $('#add-meme').on('click', function(event) {
   event.preventDefault();
+  $(".meme-container").empty();
   searchedMovie = $('#meme-input').val().trim();
   console.log('Movie: ' + searchedMovie);
-  $('#meme-input').val("");
+  // $('#meme-input').val("");
   searchOMDB();
 });
 
@@ -46,5 +47,9 @@ var searchOMDB = function(term) {
     movieInfo['rated'] = rated;
     console.log('---movieInfo---')
     console.log(movieInfo);
+    $('.meme-container').prepend("<img src=" + posterURL + "/>" );
+    $('.meme-container').prepend( year + " "  + " " + rated ); 
+
+
   });
 }
