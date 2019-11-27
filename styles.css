@@ -1,3 +1,8 @@
+body{
+    color:white;
+   
+    
+}
 @font-face {
     font-family: 'gt_walsheim_trialbold';
     src: url("./fonts/gt-walsheim-pro-trial-bold-webfont.woff2") format("woff2"), url("./fonts/gt-walsheim-pro-trial-bold-webfont.woff") format("woff");
@@ -9,9 +14,25 @@
     box-shadow: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
+
     header, #meme-buttons {
         margin-bottom: 1%;
+        background-color:rgb(255, 95, 2);
+        color:white;
     }
+
+  
+.meme-container{
+   
+    background-color: rgb(255, 95, 2);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
+}
+.meme-container img{padding-left:60px;
+    margin-top:20px;
+   
+
+
+}
     .btn-primary:hover{
         background-color: #eba23c;
         border-color:white;
@@ -22,7 +43,7 @@
      }
     
     #add-meme {
-        background-color: #eba23c;
+        background-color:rgb(255, 95, 2);
         cursor: pointer;
         border-color:white;
     }
@@ -31,14 +52,12 @@
         cursor: pointer;
     }
     
+    
     .meme {
         cursor: pointer;
     }
     
-    p {
-        text-transform: uppercase;
-        padding-left: 1%;
-    }
+  
     
     .meme {
         margin-right: 1%;
@@ -47,15 +66,11 @@
         background: white;
         color:purple;
     }
-    .memeDiv {
+    .meme-container img{
         margin-right: 1%;
     }
     
-    .rating{
-        
-        color: white;
-    }
-    
+ 
     
     
     
