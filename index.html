@@ -15,21 +15,23 @@
 </head>
 
 <body>
+
+
     
     <header>
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h1>MOVIE MEME GENERATOR.</h1>
+                    <h1 class="bar-anim">MOVIE MEME GENERATOR.</h1>
                 </div>
                 <div class="col-md-6 ">
                     <form id="meme-form">
                         <div class="row">
                             <div class="col-md-8">
-                                <input type="text" id="meme-input" placeholder="MOVIE MEME GENERATOR!" class="form-control mt-2">
+                                <input type="text" id="meme-input" placeholder="MOVIE MEME GENERATOR!" class="form-control mt-2 bar-anim">
                             </div>
                             <div class="col-md-4s">
-                                <input id="add-meme" type="submit" value="Submit" class="btn btn-primary mt-2">
+                                <input id="add-meme" type="submit" value="Submit" class="btn btn-primary mt-2 bar-anim">
                             </div>
                         </div>
                     </form>
@@ -41,7 +43,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="meme-container">
+                <div class="meme-container res-dis">
                    
                 </div>
             </div>
@@ -49,7 +51,7 @@
         <hr>
         <div class="row">
             <div class="col-md-12">
-                <div class="giphy-container">
+                <div class="giphy-container res-dis">
                    
                 </div>
             </div>
@@ -57,6 +59,9 @@
     </div>
     <script src="memer.js"></script>
     <script src="taylorjs.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.1/CSSRulePlugin.min.js"></script>
+    <script src="taylorGSAP.js"></script>
 </body>
 
 </html>
