@@ -58,23 +58,20 @@ body{
         box-shadow: none;
      }
     
-    #add-meme {
-        background-color:rgb(255, 95, 2);
+     /*submit button */
+    .btn {
+        flex:end;
         cursor: pointer;
         border-color:white;
-        background-color: rgb(245, 138, 77);
+        background-color: rgb(240, 175, 138);
     }
     
-    .meme {
-        cursor: pointer;
-    }
+
     
     
-    .meme {
-        cursor: pointer;
-    }
+   
     
-  
+    
     
     .meme {
         margin-right: 1%;
@@ -82,12 +79,13 @@ body{
         border-color:white;
         background: white;
         color:purple;
+        cursor: pointer;
     }
     .meme-container img{
         margin-right: 1%;
     }
     
- 
+
     
     
     
@@ -97,7 +95,7 @@ body{
         width: 100%;
         }
     
-        #add-meme {
+    #add-meme {
         margin-left: 15px;
-        }
     }
+}
