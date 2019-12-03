@@ -1,9 +1,12 @@
-#land-top {
-  position: relative;
+#land-top{
+  flex: content ;
+  text-align: center;
   height: 50vh;
   width: 100vw;
+  padding-top: 145px;
   background-color: rgb(255, 95, 2);
 }
+
 
 #land-bottom {
   position: relative;
@@ -20,7 +23,10 @@
 #start-btn {
   background-color:rgb(255, 95, 2);
         cursor: pointer;
-        border-color:white;
+        border-color:black;
+        color:black;
         background-color: rgb(245, 138, 77);
+        padding: 40px;
+        font-weight: bolder;
 }
 
