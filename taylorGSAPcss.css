@@ -1,0 +1,26 @@
+#land-top {
+  position: relative;
+  height: 50vh;
+  width: 100vw;
+  background-color: rgb(255, 95, 2);
+}
+
+#land-bottom {
+  position: relative;
+  height: 50vh;
+  width: 100vw;
+  background-color: rgb(121, 115, 115);
+}
+
+#start-btn, #land-txt {
+  position: absolute;
+  top: 50%;
+}
+
+#start-btn {
+  background-color:rgb(255, 95, 2);
+        cursor: pointer;
+        border-color:white;
+        background-color: rgb(245, 138, 77);
+}
+
