@@ -1,4 +1,4 @@
-gsap.set('.container-fluid, header', {display: 'none'});
+gsap.set('.homepage, header', {display: 'none'});
 gsap.set('.noBar', {overflow: 'hidden'});
 
 
