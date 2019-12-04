@@ -65,7 +65,7 @@ body{
         border-color:white;
         background-color: rgb(240, 175, 138);
     }
-    
+
     .meme {
         margin-right: 1%;
         margin-bottom: 1%;
@@ -92,7 +92,7 @@ body{
         height: 50vh;
         width: 100vw;
         background-color: rgb(121, 115, 115);
-    
+   
       }
       
       #start-btn, #land-txt {
@@ -109,6 +109,8 @@ body{
               padding: 40px;
               font-weight: bolder;
       }
+
+
     
       .landing-button{
           padding-right: 150px;
