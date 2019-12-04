@@ -1,2 +1,6 @@
 # team2
-group project with Taylor and Tatiana
+Group project with Taylor, Sam and Tatiana 
+
+
+
+
