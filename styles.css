@@ -25,12 +25,8 @@ body{
     background-color: rgb(121, 115, 115);
     border-radius: 20px;
     border: rgb(180, 178, 178) solid 2px;
+    margin-top: 15px;
     
-}
-
-.popcorn{
-    margin: 12px;
-    text-align: center;
 }
   
 .meme-container{
@@ -41,7 +37,8 @@ body{
     text-align: left; 
     text-emphasis: bold;
 }
-.meme-container img, .giphy-container img{padding-left:60px;
+.meme-container img, .giphy-container img{
+    padding-left:60px;
     margin:10px;
     color:white;
     background-color:  rgb(255, 95, 2);
