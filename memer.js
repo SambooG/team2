@@ -22,12 +22,6 @@ for (i = 0; i < 5; i++){
 })
 
 
-// gsap.to(".popcorn", {duration: 2, x: 200, delay: 10, ease: "bounce"});
-
-// function tweenComplete(){
-  // console.log(complete)
-// }
-
 gsap.fromTo(".btn", {opacity: 0},{opacity: 1, duration: 5});
 
 function tweenComplete1(){

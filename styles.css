@@ -66,13 +66,6 @@ body{
         background-color: rgb(240, 175, 138);
     }
     
-
-    
-    
-   
-    
-    
-    
     .meme {
         margin-right: 1%;
         margin-bottom: 1%;
@@ -84,18 +77,49 @@ body{
     .meme-container img{
         margin-right: 1%;
     }
+    #land-top{
+        flex: content ;
+        text-align: center;
+        height: 50vh;
+        width: 100vw;
+        padding-top: 145px;
+        background-color: rgb(255, 95, 2);
+      }
+      
+      
+      #land-bottom {
+        position: relative;
+        height: 50vh;
+        width: 100vw;
+        background-color: rgb(121, 115, 115);
     
-
+      }
+      
+      #start-btn, #land-txt {
+        position: absolute;
+        top: 50%;
+      }
+      
+      #start-btn {
+        background-color:rgb(255, 95, 2);
+              cursor: pointer;
+              border-color:black;
+              color:black;
+              background-color: rgb(245, 138, 77);
+              padding: 40px;
+              font-weight: bolder;
+      }
     
-    
-    
+      .landing-button{
+          padding-right: 150px;
+      }
     @media screen and (max-width: 768px) {
     
         .meme {
         width: 100%;
         }
     
-    #add-meme {
+        #add-meme {
         margin-left: 15px;
     }
 }
